@@ -1,0 +1,210 @@
+header {
+	background-image: url("../IMG/Background-Header.jpg");
+	background-repeat: no-repeat;
+	right: 0px;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	box-shadow: 0px 15px 10px red;
+}
+.pinup {
+	width: 650px;
+	height: auto;
+	margin-top: -8px;
+	transform: rotate(5deg);
+}
+.Logo {
+	width: 700px;
+	height: auto;
+	position: absolute;
+	top: -75px;
+	left: 33%;
+}
+.gridHeader {
+	position: absolute;
+	top: 320px;
+	left: 125px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 200px;
+	grid-gap: 55px;
+	grid-template-areas: "a b c d e";
+}
+.contactimg {
+	width: 300px;
+	height: auto;
+	grid-area: a;
+}
+.awsimg {
+	width: 300px;
+	height: auto;
+	grid-area: b;
+}
+.newimg{
+	width: 300px;
+	height: auto;
+	grid-area: c;
+}
+.quinoussommesimg {
+	width: 300px;
+	height: auto;
+	grid-area: d;
+}
+.lpstartimg {
+	width: 300px;
+	height: auto;
+	grid-area: e;
+}
+body {
+	background-image: url(../IMG/BG.png);
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1500px;
+}
+.BoiteInfo {
+	width: 1700px;
+	height: 800px;
+	background-color: #FBFBFB;
+	position: absolute;
+	top: 515px;
+	left: 125px;
+	border-radius: 10px 10px 10px 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: "a b";
+}
+.textBvn {
+	grid-area: a;
+}
+.imgEleves {
+	grid-area: b;
+}
+.photoeleve {
+	margin-top: 20px;
+	width: 737px;
+	height: auto;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 15px 15px 10px rgba(70, 70, 70, 0.6);
+}
+.text {
+	font-size: 35px;
+	font-family: fantasy;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.text2 {
+	font-size: 45px;
+	font-family: fantasy;
+	margin-left: 120px;
+}
+.inscription {
+	width: 300px;
+	height: auto;
+	position: absolute;
+	margin-left: 220px;
+	top: 470px;
+	border-radius: 45px 45px 45px 45px;
+	background-color: red;
+}
+footer {
+	background-color: black;
+	width: 1910px;
+	height: 100px;
+	position: absolute;
+	top: 2900px;
+	left: -8px;
+}
+.footerTxt {
+	color: #FBFBFB;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.Corps2 {
+	width: 100%;
+	height: 300px;
+}
+
+.div-round {
+	position: absolute;
+	z-index: 10;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+.iframe-round {
+	position: absolute;
+	top: 1550px;
+	left: 700px;
+	z-index: 10;
+	width: 500px;
+	height: 282px;
+	border: 0;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	box-shadow: 15px 15px 10px red;
+}
+.Temoignage {
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 1250px;
+	left: 720px;
+}
+.BoiteWebCoding {
+	background-color: #FBFBFB;
+	position: absolute;
+	width: 800px;
+	height: 382px;
+	top: 1900px;
+	left: 550px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 15px 15px 10px red;
+}
+.BoiteIA {
+	background-color: #FBFBFB;
+	position: absolute;
+	width: 800px;
+	height: 382px;
+	top: 2350px;
+	left: 1000px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 15px 15px 10px red;
+}
+.BoiteCyber {
+	background-color: #FBFBFB;
+	position: absolute;
+	width: 800px;
+	height: 382px;
+	top: 2350px;
+	left: 100px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 15px 15px 10px red;
+}
+.imgBoite {
+	margin-top: -50px;
+	margin-left: 250px;
+	width: 275px;
+	height: auto;
+}
+.txtwc {
+	font-size: 20px;
+	font-family: fantasy;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.txtia {
+	font-size: 20px;
+	font-family: fantasy;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.txtcs {
+	font-size: 20px;
+	font-family: fantasy;
+	margin-left: 15px;
+	margin-right: 15px;
+}

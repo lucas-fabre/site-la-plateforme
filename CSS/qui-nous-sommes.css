@@ -1,0 +1,181 @@
+header {
+	background-image: url("../IMG/Background-Header.jpg");
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0px 15px 10px red;}
+.Logo {
+	width: 700px;
+	height: auto;
+	position: absolute;
+	top: -75px;
+	left: 33%;
+}
+.gridHeader {
+	position: absolute;
+	top: 320px;
+	left: 125px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 200px;
+	grid-gap: 55px;
+	grid-template-areas: "a b c d e";
+}
+.contactimg {
+	width: 300px;
+	height: auto;
+	grid-area: a;
+}
+.awsimg {
+	width: 300px;
+	height: auto;
+	grid-area: b;
+}
+.newimg{
+	width: 300px;
+	height: auto;
+	grid-area: c;
+}
+.quinoussommesimg {
+	width: 300px;
+	height: auto;
+	grid-area: d;
+}
+.lpstartimg {
+	width: 300px;
+	height: auto;
+	grid-area: e;
+}
+.section1 {
+	position: absolute;
+	top: 515px;
+	left: 125px;
+
+}
+.pinup {
+	width: 650px;
+	height: auto;
+	margin-top: -8px;
+	transform: rotate(5deg);
+}
+body {
+	background-image: url(../IMG/BG.png);
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1500px;
+}
+.text1 {
+    width: 1500px;
+    height: auto;
+    background-color: #FBFBFB;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    border-radius: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "a b";
+    font-size: 20px;
+    font-family: fantasy;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.stext1 {
+    grid-area: a;
+
+}
+.stext2 {
+    grid-area: b;
+}
+.h1{
+	font-size: 35px;
+	font-family: fantasy;
+}
+.section2 {
+	position: absolute;
+	top: 850px;
+	left: 125px;
+
+}
+.h2{
+	font-size: 35px;
+	font-family: fantasy;
+}
+.text2 {
+    width: 300px;
+    height: auto;
+    background-color: #FBFBFB;
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    border-radius: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: "a b c d";
+    font-size: 20px;
+    font-family: fantasy;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.credit{
+	width: 300px;
+	height: auto;
+	grid-area: a;
+}
+.amazon{
+	width: 300px;
+	height: auto;
+	grid-area: b;
+}
+.gen{
+	width: 300px;
+	height: auto;
+	grid-area: c;
+}
+.regionsud{
+	width: 300px;
+	height: auto;
+	grid-area: d;
+}
+.section3{
+	position: absolute;
+	top: 1100px;
+	left: 125px;
+}
+.h3{
+	font-size: 35px;
+	font-family: fantasy;
+}
+.text3 {
+    width: auto;
+    height: auto;
+    background-color: #FBFBFB;
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    border-radius: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: "a b c";
+    grid-gap: 100px;
+    row-gap: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.v1{
+    grid-area: a;
+}
+.v2{
+    grid-area: b;
+}
+.v3{
+    grid-area: c;
+}
